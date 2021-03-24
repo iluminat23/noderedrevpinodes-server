@@ -1,0 +1,26 @@
+Source: noderedrevpinodes-server
+Section: misc
+Priority: optional
+Maintainer: Philipp Rosenberger <p.rosenberger@kunbus.com>
+Build-Depends: debhelper (>= 10)
+Standards-Version: 4.5.0
+Homepage: https://github.com/erminas/noderedrevpinodes-server
+Vcs-Browser: https://github.com/RevolutionPi/noderedrevpinodes-server
+Vcs-Git: https://github.com/RevolutionPi/noderedrevpinodes-server.git
+
+Package: noderedrevpinodes-server
+Architecture: all
+Depends:
+ ${misc:Depends},
+ python3 (>= 3.5),
+ python3-revpimodio2 (>= 2.5.1),
+ python3-bcrypt (>= 3.1.2),
+ python3-cryptography (>= 1.7.1),
+ python3-websockets(>= 3.2-2)
+Description: Server backend for the RevPi-NodeRed-Nodes
+ The server is needed to communicate between the Node-RED RevPi nodes and
+ the I/O pins on the RevPi. It is a Python based websocket server which
+ utilizes the Python library RevPiModIO to interface between the RevPi process
+ image and Node-RED. The associated RevPi nodes can be acquired via the
+ node-red-contrib-revpi-nodes package in the Node-RED Library or here:
+ https://github.com/erminas/node-red-contrib-revpi-nodes
