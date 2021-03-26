@@ -1,5 +1,6 @@
-noderedrevpinodes-server (1.0.2-2) UNRELEASED; urgency=medium
+noderedrevpinodes-server (1.0.2-2) unstable; urgency=medium
 
   * Import noderedrevpinodes-server 1.0.2-1
+  * Move log file to /var/log
 
- -- Philipp Rosenberger <p.rosenberger@kunbus.com>  Wed, 24 Mar 2021 15:02:14 +0100
+ -- Philipp Rosenberger <p.rosenberger@kunbus.com>  Fri, 26 Mar 2021 12:40:18 +0100
