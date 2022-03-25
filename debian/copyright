@@ -4,11 +4,11 @@ Upstream-Contact: erminas GmbH <info@erminas.de>
 Source: https://github.com/erminas/node-red-contrib-revpi-nodes
 
 Files: *
-Copyright: 2019-2021 erminas GmbH <info@erminas.de>
+Copyright: 2019-2022 erminas GmbH <info@erminas.de>
 License: LGPL-3.0-only
 
 Files: debian/*
-Copyright: 2021 Philipp Rosenberger <p.rosenberger@kunbus.com>
+Copyright: 2021-2022 Philipp Rosenberger <p.rosenberger@kunbus.com>
 License: LGPL-3.0+
 
 License: LGPL-3.0+
