@@ -1,3 +1,34 @@
+noderedrevpinodes-server (1.0.4-1) stable; urgency=medium
+
+  [ jgerlach-erminas ]
+  * bumped to version 1.0.3
+  * expandend list of supported clients
+  * adapted debian build to new 1.0.3 release
+  * integrated PR from Nicolai Buchwitz (Kunbus)
+  * restore correct parameter for python websockets
+  * changed log location to /var/log/revpi-server.log
+  * improved message handling for "list" command
+  * proper async handling for send and retrieve
+  * disabled websocket message compression on server side
+
+  [ dennis ]
+  * Fix memleak and build issues
+  * redesign of the asyncio calls
+
+  [ Dennis Filsinger ]
+  * version incremented to 1.0.4
+
+  [ Philipp Rosenberger ]
+  * Drop "Move the log ..." patch
+  * Add Patches to remove the Upstream package build scripts
+  * Update gbp.conf to honor our branch name convention
+  * Update copyright date
+  * Add python3-distro to the dependencies
+  * Add symlink from the old log location to the new
+  * Update debhelper and Standards-Version
+
+ -- Philipp Rosenberger <p.rosenberger@kunbus.com>  Fri, 25 Mar 2022 09:30:49 +0100
+
 noderedrevpinodes-server (1.0.2-2) unstable; urgency=medium
 
   * Import noderedrevpinodes-server 1.0.2-1
